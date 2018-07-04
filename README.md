@@ -1,6 +1,6 @@
 # local_industrial_ci
 The script repository to do industrial_ci check on local environment.  
-Abstract for each scripts is following.
+Abstracts for each scripts are following.
 
 - [`install_docker.bash`](./install_docker.bash) : Install the `docker-ce`.
 - [`install_industrial_ci`](./install_industrial_ci.bash) : Install the [`industrial_ci`](https://github.com/ros-industrial/industrial_ci).
@@ -37,7 +37,7 @@ $ cp execute_industrial_ci.bash <desired_ros_package>/
 $ roscd <desired_ros_package>
 ```
 
-#### 3. Execute the script
+##### 3. Execute the script
 If there is dependence packages described with `rosinstall` file (If you need to use wstool to install dependent packages),  
 type file name as a first argument of the script.
 If not, just ignore the first argument.
