@@ -14,19 +14,19 @@ $ git clone https://github.com/RyodoTanaka/local_industrial_ci.git
 ```
 
 # Usage
-#### `install_docker.bash`
+### `install_docker.bash`
 ```bash
 $ source install_docker.bash
 ```
 Then, docker installation starts automaticaly.
 
-#### `install_industrial_ci.bash`
+### `install_industrial_ci.bash`
 ```bash
 $ cd <catkin_ws>
 $ source src/local_industrial_ci/install_industrial_ci.bash
 ```
 
-#### `execute_industrial_ci.bash`
+### `execute_industrial_ci.bash`
 ##### 1. Copy the script into desired ros package.
 ```bash
 $ cp execute_industrial_ci.bash <desired_ros_package>/
